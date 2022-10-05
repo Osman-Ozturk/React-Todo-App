@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: rgb(142, 158, 158);
+  background: linear-gradient(
+    236deg,
+    rgba(142, 158, 158, 1) 7%,
+    rgba(35, 70, 73, 1) 70%
+  );
+  border-radius: 20px;
+  width: 450px;
+  margin: 10px auto;
+  font-style: oblique;
+  .neuesTodo {
+    .todo {
+      width: 380px;
+      margin:5px auto 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .datum {
+      p{
+        margin: 0;
+        padding:5px 0;
+      }
+    }
+  }
+  .p {
+    margin: 0;
+  }
+}
+.erledigt {
+  background: rgb(142, 158, 158);
+  background: linear-gradient(
+    236deg,
+    rgba(142, 158, 158, 1) 9%,
+    rgba(66, 60, 56, 1) 81%
+  );
+  text-decoration: line-through;
+}

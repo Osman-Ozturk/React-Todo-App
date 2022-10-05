@@ -1,0 +1,22 @@
+form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        label {
+                font-style: italic;
+                padding-right: 10px;
+                font-size: 1.2rem;
+        }
+        input {
+                padding: 5px;
+                border-radius: 10px;
+                margin-right: 10px;
+        }
+
+        .Add {
+                background-color: rgb(109, 106, 106);
+                padding: 5px;
+                border-radius: 10px;
+                
+        }
+}
